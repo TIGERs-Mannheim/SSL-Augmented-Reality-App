@@ -1,0 +1,19 @@
+### How to get started ###
+1. Build the project
+cd src/AugmSSL
+cmake .
+make
+
+2. Start
+cd ../.. # project root
+./augmSSL
+
+You can also use the included eclipse resources:
+ * Their are external tools for building with cmake (select AugmSSL or Examples before)
+ * Use the provided Launch-config
+
+### Resources ###
+/data			Contains sample videos, images, AI data
+/proto			Contains protobuf description and example project for testing
+/src/AugmSSL	Main project
+/src/Examples	Several example source files for testing different methods

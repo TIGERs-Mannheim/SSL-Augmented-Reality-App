@@ -1,0 +1,67 @@
+/*
+ * opencv_compat.h
+ *
+ *  Created on: Mar 15, 2015
+ *      Author: Nicolai Ommer <nicolai.ommer@gmail.com>
+ */
+
+#ifndef SRC_AUGMSSL_OPENCV_COMPAT_H_
+#define SRC_AUGMSSL_OPENCV_COMPAT_H_
+
+#if CV_MAJOR_VERSION == 3
+
+#ifndef CV_FONT_HERSHEY_PLAIN
+#define CV_FONT_HERSHEY_PLAIN FONT_HERSHEY_PLAIN
+#endif
+
+#ifndef CV_CAP_PROP_POS_FRAMES
+#define CV_CAP_PROP_POS_FRAMES CAP_PROP_POS_FRAMES
+#endif
+
+#ifndef CV_CAP_PROP_FRAME_WIDTH
+#define CV_CAP_PROP_FRAME_WIDTH CAP_PROP_FRAME_WIDTH
+#endif
+
+#ifndef CV_CAP_PROP_FRAME_HEIGHT
+#define CV_CAP_PROP_FRAME_HEIGHT CAP_PROP_FRAME_HEIGHT
+#endif
+
+#ifndef CV_WND_PROP_FULLSCREEN
+#define CV_WND_PROP_FULLSCREEN WND_PROP_FULLSCREEN
+#endif
+
+#ifndef CV_WINDOW_FULLSCREEN
+#define CV_WINDOW_FULLSCREEN WINDOW_FULLSCREEN
+#endif
+
+#ifndef CV_CAP_PROP_FRAME_COUNT
+#define CV_CAP_PROP_FRAME_COUNT CAP_PROP_FRAME_COUNT
+#endif
+
+#ifndef CV_RGB2GRAY
+#define CV_RGB2GRAY COLOR_RGB2GRAY
+#endif
+
+#ifndef CV_GRAY2BGR
+#define CV_GRAY2BGR COLOR_GRAY2BGR
+#endif
+
+#ifndef CV_DIST_L2
+#define CV_DIST_L2 DIST_L2
+#endif
+
+#ifndef CV_CALIB_USE_INTRINSIC_GUESS
+#define CV_CALIB_USE_INTRINSIC_GUESS CALIB_USE_INTRINSIC_GUESS
+#endif
+
+#ifndef CV_HOUGH_GRADIENT
+#define CV_HOUGH_GRADIENT HOUGH_GRADIENT
+#endif
+
+#ifndef CV_AA
+#define CV_AA LINE_AA
+#endif
+
+#endif
+
+#endif /* SRC_AUGMSSL_OPENCV_COMPAT_H_ */
